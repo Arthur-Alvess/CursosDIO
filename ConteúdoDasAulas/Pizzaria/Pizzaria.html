@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <h3>Defina o sabor</h3>
+        <label>Calabresa </label> <input type="radio" name="sabor" value="Calabresa">
+        <label>Frango c/ catupiry </label> <input type="radio" name="sabor" value="FrangoCatupiry">
+        <label>Portuguesa </label> <input type="radio" name="sabor" value="Portuguesa">
+
+        <h3>Adicionais</h3>
+        <label>Bacon </label> <input type="checkbox" name="adicional[]" value="Bacon"><br>
+        <label>Cebola </label> <input type="checkbox" name="adicional[]" value="Cebola"><br>
+        <label>Azeitona </label> <input type="checkbox" name="adicional[]" value="Azeitona">
+
+        <h3>Bebidas</h3>
+        <label>Água c/ gás </label> <input type="checkbox" name="bebida[]" value="AguaGás"><br>
+        <label>Água s/ gás </label> <input type="checkbox" name="bebida[]" value="AguaNormal"><br>
+        <label>Coca-Cola </label> <input type="checkbox" name="bebida[]" value="Cocacola"><br>
+        <label>Guaraná </label> <input type="checkbox" name="bebida[]" value="Guaraná"><br>
+        
+        <br><button type="submit">Enviar Pedido</button>
+    </form>
+</body>
+</html>
