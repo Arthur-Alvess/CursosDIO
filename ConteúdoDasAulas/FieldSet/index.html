@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FieldSet</title>
+    <style>
+        .linha{
+            margin: 5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset{
+            margin: 10px 0;
+            border-radius: 30px;
+            border-color: greenyellow;
+            width: 600px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2>formulário</h2>
+    
+    <form onsubmit="" method="get">    
+    
+        <fieldset>
+            <legend>dados Pessoais</legend>
+            <div id="linha">
+                <label>Nome: </label><input type="text" name="firstname">
+                <label>Sobrenome: </label> <input type="text" name="lastname">
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>cargo</legend>
+            <div id="linha">
+                <label>Profissão: </label><input type="text" name="cargo">
+                <label>Empresa: </label> <input type="text" name="empresa">
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Endereço</legend>
+            <div id="linha">
+                <label>Rua: </label> <input type="text" name="rua">
+                <label>Número: </label> <input type="number" name="number">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

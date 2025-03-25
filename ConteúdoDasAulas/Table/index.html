@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Dados Pessoais</title>
+    <style>
+        table {
+            border: solid 1px black;
+            width: 250px;
+            margin: auto;
+        }
+        th, td {
+            padding: 7px;
+            text-align: center;
+        }
+        thead {
+            background-color: rgb(56, 56, 56);
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: rgb(175, 175, 175);
+        }
+        tbody tr{
+            cursor: pointer;
+        }
+        tfoot {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <caption><strong>Tabela de Dados Pessoais</strong></caption>
+
+        <thead>
+            <tr>
+                <td colspan="2">Minha Tabela</td>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arthur</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Vitor</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Eliane</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Denilson</td>
+                <td>54</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>149</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
