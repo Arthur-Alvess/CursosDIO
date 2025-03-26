@@ -33,10 +33,10 @@ a:hover {
 .menu {
     width: 15%;
     background-color: lightgrey;
-    padding: 10px 20px 0px;
+padding: 10px 20px 0px;
     position: absolute;
     top: 103px;
-    bottom: 81px;
+    bottom: 10.3%;
     left: 0;
 }
 
